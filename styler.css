@@ -1,0 +1,163 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+}
+
+body{
+    background: #f5f5f5;
+}
+
+/* HEADER */
+header{
+    width: 100%;
+    padding: 18px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ffffff;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.logo{
+    font-size: 28px;
+    font-weight: 700;
+    color: #222;
+}
+.logo span{
+    color: #ff3b3b;
+}
+
+nav a{
+    margin: 0 20px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #444;
+}
+
+nav a:hover{
+    color: #ff3b3b;
+}
+
+.login-btn{
+    padding: 10px 20px;
+    border: none;
+    background: #ff3b3b;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.login-btn:hover{
+    background: #d32f2f;
+}
+
+/* HERO SECTION */
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 60px;
+    background: linear-gradient(120deg, #ff3b3b, #ff7f50);
+    color: white;
+}
+
+.hero-text h1{
+    font-size: 52px;
+    margin-bottom: 20px;
+}
+.hero-text span{
+    color: #222;
+    background: white;
+    padding: 5px 12px;
+    border-radius: 6px;
+}
+
+.hero-text p{
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.explore-btn{
+    padding: 12px 30px;
+    border: none;
+    background: #222;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 18px;
+}
+.explore-btn:hover{
+    background: #000;
+}
+
+.hero-bike{
+    width: 450px;
+}
+
+/* POPULAR BIKES */
+.popular{
+    padding: 60px;
+    text-align: center;
+}
+
+.popular h2{
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.bike-container{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.bike-card{
+    width: 280px;
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.bike-card:hover{
+    transform: translateY(-10px);
+}
+
+.bike-card img{
+    width: 100%;
+    height: 170px;
+    object-fit: contain;
+}
+
+.bike-card h3{
+    margin: 15px 0 5px;
+}
+
+.bike-card p{
+    color: #ff3b3b;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.bike-card button{
+    padding: 10px 20px;
+    border: none;
+    background: #ff3b3b;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+/* FOOTER */
+footer{
+    text-align: center;
+    padding: 20px;
+    background: #222;
+    color: white;
+    margin-top: 40px;
+}
+@media(min-width:768px)
+{h1{font-size:20px}
+}
